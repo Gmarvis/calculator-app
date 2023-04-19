@@ -7,14 +7,12 @@ let calculate = (number)=>{
 let Result = ()=>{
     try{
 
-
         result.value=eval(result.value)
     }
     catch(err){
         alert('Invalid input')
     }
 }
-
 
 function clr(){
     result.value= " "
