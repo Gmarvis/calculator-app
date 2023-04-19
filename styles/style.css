@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,8 +16,8 @@
 }
 
 .calc {
-  box-shadow: 6px 6px 13 #fff, 6px 6px 13px rgba(0,0,0, 16%);  box-shadow: inset
-  6px 6px 13px #fff,  6px 6px 13px rgba(0, 0, 0, 16%);
+  box-shadow: 6px 6px 13px #fff, 6px 6px 13px #00000029; box-shadow: inset
+  6px 6px 13px #fff,  6px 6px 13px #00000029;
   border-radius: 28px;
   padding: 16px;
   display: grid;
@@ -34,13 +34,13 @@ input {
   border-radius: 32px;
   color: #1a1919;
   text-align: end;
-  margin: 40px 0 30px 0;
+  margin: 40px 0 30px;
   padding: 40px;
   font-size: 40px;
 }
 
 button {
-  box-shadow: inset 6px 6px 13px #fff,  6px 6px 13px rgba(0, 0, 0 16%);
+  box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0 16%);
   background-color: #ecf0f3;
   border: none;
   border-radius: 50px;
@@ -49,11 +49,12 @@ button {
   margin: 10px;
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .equal {
   width: 120px;
   border-radius: 42px;
-  box-shadow: inset 6px 6px 13px #fff,  6px 6px 13px rgba(0, 0, 0, 16%);
+  box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px #00000029;
   background-color: #ecf0f3;
 }
