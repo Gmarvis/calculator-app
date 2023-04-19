@@ -17,7 +17,7 @@
 
 .calc {
   box-shadow: 6px 6px 13px #fff, 6px 6px 13px #00000029;
-  box-shadow: inset 6px 6px 13px #fff,  6px 6px 13px #00000029;
+  box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px #00000029;
   border-radius: 28px;
   padding: 16px;
   display: grid;
